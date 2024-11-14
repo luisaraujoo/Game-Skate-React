@@ -1,3 +1,5 @@
+Projeto autoral utilizando React - mais precisamente no "./Challenge.jsx" é onde eu utilizo a maior parte da lógica de programação, que envolve POO.
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
