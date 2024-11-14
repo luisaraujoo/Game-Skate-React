@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#pMenuPrincipal {
+  font-size: 20px;
+}
+
+h2,
+p {
+  padding: 10px;
+  color: #030303;
+}
+
+p {
+  font-size: 10px;
+}
+
+#btn-start {
+  margin-top: 266px;
+  display: inline;
+  font-weight: bold;
+  padding: 10px 0px;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em gray;
+  cursor: pointer;
+  width: 9rem;
+  height: 38px;
+  font-size: 25px;
+  border: none;
+}
+
+#btn-start:active {
+  box-shadow: none;
+  position: relative;
+  top: 0.2em;
+}

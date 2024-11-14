@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
+
+#challenge2 {
+  margin-top: 115px;
+}
+
+#challenge1 {
+  margin-top: 155px;
+}
+
+#btn-challenge,
+#btn-menuPrincipal {
+  margin-top: 115px;
+  display: inline;
+  font-weight: bold;
+  padding: 10px 0px;
+  background-color: lightgray;
+  text-shadow: -1px -1px black, 1px 1px white;
+  color: gray;
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  -o-border-radius: 7px;
+  border-radius: 7px;
+  box-shadow: 0 0.2em gray;
+  cursor: pointer;
+  width: 10.4rem;
+  height: 48px;
+  font-size: 17px;
+  text-transform: uppercase;
+  border: none;
+  transition: 0.9s;
+}
+
+#btn-challenge:active,
+#btn-menuPrincipal:active {
+  box-shadow: none;
+  position: relative;
+  top: 0.2em;
+}
+
+#btn-menuPrincipal {
+  display: flex;
+}

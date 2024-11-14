@@ -1,0 +1,46 @@
+.container {
+  background-image: url("./assets/1.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 800px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 26px;
+}
+
+.challenge {
+  background-image: url("./assets/2.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1000px;
+  height: 800px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 26px;
+}
+
+@media only screen and (max-width: 414px) {
+  .container,
+  .challenge {
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    background-size: contain;
+    padding: 26px;
+  }
+
+  .container {
+    background-image: url("./assets/1.svg");
+    background-size: 50% 100%;
+  }
+}
